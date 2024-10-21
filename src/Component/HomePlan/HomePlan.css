@@ -1,0 +1,49 @@
+.HomePlan {
+  padding: 3rem 0rem;
+  width: 100%;
+}
+
+.HomePlan-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.homeplan-box {
+  display: flex;
+  gap: 2rem;
+}
+
+.homeplan-left {
+  width: 45%;
+}
+.homeplan-left img{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.homeplan-right {
+  width: 55%;
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+}
+
+@media (min-width: 1200px) {
+  .HomePlan-main {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .homeplan-box {
+    flex-wrap: wrap;
+  }
+
+  .homeplan-left ,
+  .homeplan-right {
+    width: 100%;
+}
+}

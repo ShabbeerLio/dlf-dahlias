@@ -1,0 +1,10 @@
+.MasterPlan {
+  padding: 3rem 0;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.MasterPlan img{
+width: 100%;
+object-fit: cover;
+}

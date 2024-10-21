@@ -1,24 +1,91 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
+// import { useEffect } from "react";
+import Home from "./Pages/Home/Home";
+import Navbar from "./Component/Navbar/Navbar";
+import Location from "./Pages/Location/Location";
+import Footer from "./Component/Footer/Footer";
+import Gallery from "./Pages/Gallery/Gallery";
+import PriceList from "./Pages/PriceList/PriceList";
+import MasterPlan from "./Pages/MasterPlan/MasterPlan";
+import FloorPlan from "./Pages/FloorPlan/FloorPlan";
+import SiteVisit from "./Pages/SiteVisit/SiteVisit";
+import Disclaimer from "./Pages/Disclaimer/Disclaimer";
 
 function App() {
+
+  const title = "DLF The Dahlias Golf Course Road"
+  const descriptions = "Discover the price, location, and floor plan of DLF The Dahlias in Sector 54, Gurugram. Stay updated with the latest news and launch details for this new residential project."
+
+  // remove inspect and copy element
+  //  useEffect(() => {
+  //   const handleRightClick = (e) => {
+  //     e.preventDefault();
+  //   };
+
+  //   const handleSelect = (e) => {
+  //     e.preventDefault();
+  //     return false;
+  //   };
+
+  //   document.addEventListener('selectstart', handleSelect);
+  //   document.addEventListener('contextmenu', handleRightClick);
+
+  //   return () => {
+  //     document.removeEventListener('contextmenu', handleRightClick);
+  //     document.removeEventListener('selectstart', handleSelect);
+  //   };
+  // }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route
+            path="/"
+            exact
+            element={
+              <Home title={title} descriptions={descriptions} />} />
+          <Route
+            path="/gallery"
+            exact
+            element={
+              <Gallery title={title} descriptions={descriptions} />} />
+          <Route
+            path="/price-list"
+            exact
+            element={
+              <PriceList title={title} descriptions={descriptions} />} />
+          <Route
+            path="/master-plan"
+            exact
+            element={
+              <MasterPlan title={title} descriptions={descriptions} />} />
+          <Route
+            path="/floor-plan"
+            exact
+            element={
+              <FloorPlan title={title} descriptions={descriptions} />} />
+          <Route
+            path="/location"
+            exact
+            element={
+              <Location title={title} descriptions={descriptions} />} />
+          <Route
+            path="/site-visit"
+            exact
+            element={
+              <SiteVisit title={title} descriptions={descriptions} />} />
+          <Route
+            path="/disclaimer"
+            exact
+            element={
+              <Disclaimer title={title} descriptions={descriptions} />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </>
   );
 }
 
