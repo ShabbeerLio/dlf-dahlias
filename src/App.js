@@ -14,8 +14,8 @@ import Disclaimer from "./Pages/Disclaimer/Disclaimer";
 
 function App() {
 
-  const title = "DLF The Dahlias Golf Course Road"
-  const descriptions = "Discover the price, location, and floor plan of DLF The Dahlias in Sector 54, Gurugram. Stay updated with the latest news and launch details for this new residential project."
+  const title = "DLF The Dahlias Golf Course Road: Luxury Living at DLF The Dahlias Golf Course Road"
+  const descriptions = "DLF The Dahlias Golf Course Road offers luxury living in a prime location. Experience the best of amenities and a prestigious address at DLF The Dahlias Golf Course Road."
 
   // remove inspect and copy element
   //  useEffect(() => {
