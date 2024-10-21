@@ -61,7 +61,7 @@ const PriceList = (props) => {
         <div className='PriceList'>
             <div className='SiteVisit-main'>
                 <div className="Page-title">
-                    <h1>DLF The Dahlias Golf Course Road Price List</h1>
+                    <h1>DLF The Dahlias Price List</h1>
                 </div>
                 <div className="sitevisit-box">
                     <div className="sitevisit-item">

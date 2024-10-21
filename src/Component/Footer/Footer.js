@@ -27,7 +27,7 @@ const Footer = (props) => {
                 <div className="footer-box">
                     <div className="footer-item">
                         {/* <img src={footerimg} alt="" /> */}
-                        <h5>DLF The Dahlias Golf Course Road</h5>
+                        <h5>DLF The Dahlias</h5>
                     </div>
                     <div className="footer-item">
                         <h2>Inportant Links</h2>

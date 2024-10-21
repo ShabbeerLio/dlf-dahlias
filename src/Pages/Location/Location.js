@@ -58,7 +58,7 @@ const Location = (props) => {
     return (
         <div className='location'>
             <div className="Page-title">
-                <h1>DLF The Dahlias Golf Course Road Location</h1>
+                <h1>DLF The Dahlias Location</h1>
             </div>
             <div className="location-box">
                 <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d1754.066257244352!2d77.1107715!3d28.4454215!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDI2JzQzLjgiTiA3N8KwMDYnNDMuNCJF!5e0!3m2!1sen!2sin!4v1729512265104!5m2!1sen!2sin" ></iframe>

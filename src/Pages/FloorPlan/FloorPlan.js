@@ -57,7 +57,7 @@ const FloorPlan = (props) => {
         <div className='FloorPlan'>
             <div className='SiteVisit-main'>
                 <div className="Page-title">
-                    <h1>DLF The Dahlias Golf Course Road Floor Plan</h1>
+                    <h1>DLF The Dahlias Floor Plan</h1>
                 </div>
                 <div className="sitevisit-box">
                     <div className="sitevisit-item">

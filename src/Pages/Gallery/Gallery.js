@@ -75,7 +75,7 @@ const Gallery = (props) => {
             <div className='Gallery'>
                 <div className='Gallery-main'>
                     <div className="Page-title">
-                        <h1>DLF The Dahlias Golf Course Road Gallery</h1>
+                        <h1>DLF The Dahlias Gallery</h1>
                     </div>
                     <div className={model ? "model open" : "model"}>
                         <IoMdClose onClick={closeModel} />
