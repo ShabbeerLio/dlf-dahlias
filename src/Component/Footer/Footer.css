@@ -177,6 +177,7 @@
 
   .footer-item p {
     font-size: 14px;
+    text-align: center;
   }
 
   .footer-item:nth-child(3) ul li a {
@@ -188,6 +189,13 @@
     margin-right: 15px;
     font-weight: 700;
   }
+
+
+  .footer-copyright {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
   .footer-copyright p {
     padding: 10px 0px;
     font-size: 12px;
