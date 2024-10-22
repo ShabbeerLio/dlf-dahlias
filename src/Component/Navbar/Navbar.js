@@ -67,7 +67,7 @@ const Navbar = (props) => {
                                 <div className="company-logo-box">
                                     <Link
                                         className={`nav-link ${activeLink === '/' ? 'active' : ''}`}
-                                        to="/"
+                                        to="/dahlias/"
                                         // onClick={() => handleLinkClick('/')}
                                     >
                                         <h5>DLF The Dahlias</h5>
@@ -95,7 +95,7 @@ const Navbar = (props) => {
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/' ? 'active' : ''}`}
-                                                to="/"
+                                                to="/dahlias/"
                                                 onClick={() => handleLinkClick('/')}
                                             >
                                                 Home
@@ -104,7 +104,7 @@ const Navbar = (props) => {
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/gallery' ? 'active' : ''}`}
-                                                to="/gallery"
+                                                to="/dahlias/gallery"
                                                 onClick={() => handleLinkClick('/gallery')}
                                             >
                                                 Gallery
@@ -113,35 +113,35 @@ const Navbar = (props) => {
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/price-list' ? 'active' : ''}`}
-                                                to="/price-list"
+                                                to="/dahlias/price-list"
                                                 onClick={() => handleLinkClick('/price-list')}
                                             >Price List</Link>
                                         </li>
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/master-plan' ? 'active' : ''}`}
-                                                to="/master-plan"
+                                                to="/dahlias/master-plan"
                                                 onClick={() => handleLinkClick('/master-plan')}
                                             >Master Plan</Link>
                                         </li>
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/floor-plan' ? 'active' : ''}`}
-                                                to="/floor-plan"
+                                                to="/dahlias/floor-plan"
                                                 onClick={() => handleLinkClick('/floor-plan')}
                                             >Floor Plan</Link>
                                         </li>
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/location' ? 'active' : ''}`}
-                                                to="/location"
+                                                to="/dahlias/location"
                                                 onClick={() => handleLinkClick('/location')}
                                             >Location</Link>
                                         </li>
                                         <li className="nav-item">
                                             <Link
                                                 className={`nav-link ${activeLink === '/site-visit' ? 'active' : ''}`}
-                                                to="/site-visit"
+                                                to="/dahlias/site-visit"
                                                 onClick={() => handleLinkClick('/site-visit')}
                                             >Book A Site Visit</Link>
                                         </li>
