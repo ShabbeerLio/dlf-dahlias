@@ -27,7 +27,7 @@ const About = () => {
                             <p>These homes are custom built to exquisite detail, while at the same time using current architectural design with traditional opulence. People will have an opportunity to be provided with the modern facilities allowing for productive leisure, green zones, stores, and numerous services that can be situated in the territory or when in proximity with the residential complex. The project ideally is situated in proximity to business districts, superior educational establishments, health care facilities and shopping markets, and easy access.</p>
                         </div>
                         <div className="about-button">
-                            <Link to="/site-visit" onClick={toTop}>
+                            <Link to="/dahlias/site-visit" onClick={toTop}>
                                 <p>Interested in Site Visit ?</p>
                             </Link>
                         </div>
