@@ -43,42 +43,42 @@ function App() {
         <Navbar />
         <Routes>
           <Route
-            path="/dahlias"
+            path="/"
             exact
             element={
               <Home title={title} descriptions={descriptions} />} />
           <Route
-            path="/dahlias/gallery"
+            path="/gallery"
             exact
             element={
               <Gallery title={title} descriptions={descriptions} />} />
           <Route
-            path="/dahlias/price-list"
+            path="/price-list"
             exact
             element={
               <PriceList title={title} descriptions={descriptions} />} />
           <Route
-            path="/dahlias/master-plan"
+            path="/master-plan"
             exact
             element={
               <MasterPlan title={title} descriptions={descriptions} />} />
           <Route
-            path="/dahlias/floor-plan"
+            path="/floor-plan"
             exact
             element={
               <FloorPlan title={title} descriptions={descriptions} />} />
           <Route
-            path="/dahlias/location"
+            path="/location"
             exact
             element={
               <Location title={title} descriptions={descriptions} />} />
           <Route
-            path="/dahlias/site-visit"
+            path="/site-visit"
             exact
             element={
               <SiteVisit title={title} descriptions={descriptions} />} />
           <Route
-            path="/dahlias/disclaimer"
+            path="/disclaimer"
             exact
             element={
               <Disclaimer title={title} descriptions={descriptions} />} />
